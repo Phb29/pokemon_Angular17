@@ -1,0 +1,3 @@
+interface form{
+message:string
+}

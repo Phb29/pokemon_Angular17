@@ -1,0 +1,21 @@
+<div class="container">
+    <img class="wallpokemon" src="./assets/wallpokemon.png" >
+
+    <div class="formpage">
+<h1>Register to become a Pokémon master!!!</h1>
+        <form [formGroup]="Form" (ngSubmit)="onSubmit()">
+            <mat-form-field appearance="fill">
+                <mat-label>Name</mat-label>
+                <input matInput formControlName="name" id="name">
+            </mat-form-field>
+
+            <mat-form-field appearance="fill">
+                <mat-label>Email</mat-label>
+                <input matInput formControlName="email" id="email">
+            </mat-form-field>
+
+            <button mat-raised-button color="primary" type="submit"  style="width: 100%;">Submit</button>
+
+        </form>
+    </div>
+</div>

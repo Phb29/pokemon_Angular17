@@ -1,0 +1,75 @@
+.wallpokemon{
+opacity: 0.4;
+height: 100%;
+width: 100%;
+ overflow: hidden;
+
+}
+.container {
+    position: relative;
+height: 100%;
+width: 100%;
+}
+.Form{
+display: flex;
+flex-direction: row;
+}
+
+
+.formpage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(126.63deg, #C8FF9C -2.89%, #FFDA7A 45.37%, #78DFFF 71.32%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+display: flex;
+flex-direction: column;
+}
+
+.formpage label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.formpage input[type="text"],
+.formpage input[type="email"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formpage button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+width: 200px !important;
+}
+
+.formpage button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+h1{
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Define a família de fontes */
+    font-size: 18px; /* Define o tamanho da fonte */
+ background: linear-gradient(126.63deg, #C8FF9C -2.89%, #FFDA7A 45.37%, #78DFFF 71.32%);
+color: gray;
+    text-align: center; /* Alinha o texto ao centro */
+     font-weight: 50;
+}

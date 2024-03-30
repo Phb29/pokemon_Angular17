@@ -1,0 +1,32 @@
+.pokemon-card{
+ overflow: hidden;
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: row;
+position: relative;
+}
+.pokeimg{
+
+position: relative;
+left: 12rem;
+}
+.blastoise{
+position: relative;
+top:2rem;
+right:rem;
+z-index: 3;
+}
+.charizard{
+position: relative;
+bottom:4rem;
+z-index: 2;
+}
+.Venusaur{
+position: relative;
+bottom:14rem;
+}
+.card-text{
+position: relative;
+left: 6rem;
+}
